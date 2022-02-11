@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+
+}
+
+header{
+    height:100px;
+    border:solid 1px black;
+    clear:both;
+}
+
+section{
+    width:50%  ;
+    height: 567px;
+    border: solid 1px black;
+    float:left;
+
+}
+
+li{
+    list-style: none;
+    float:left;
+    padding:10px
+}
+img{
+    width: 519px;
+    height: 567px;
+}
