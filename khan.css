@@ -22,6 +22,9 @@ li{
     float:left;
     padding:10px
 }
+
+
+
 img{
     width: 519px;
     height: 567px;
@@ -30,9 +33,10 @@ img{
 .text{
     height: 366px;
     width: 532px;
+    line-height:10px;
 }
 
-span{
+h2 span{
     font-size: 40px;
 }
 #content1::after{
@@ -42,4 +46,38 @@ span{
 #content2::after{
     content: "\a";
     white-space: pre;
+}
+
+#mission1{
+    content: "\a";
+    white-space: pre;
+}
+p span{
+    font-size: 24px;
+}
+
+/* header spacing */
+a:link {
+    text-decoration: none;
+    color:black;
+  }
+#left{
+      height:50px;
+      width: 33.33%;
+      border: solid 1px red;
+      float:left;
+  }
+
+  #middle{
+    height:50px;
+    width: 33.33%;
+    border: solid 1px red;
+    float:left;
+    
+}
+#right{
+    height:50px;
+    width: 33.33%;
+    border: solid 1px red;   
+    float:left;
 }
