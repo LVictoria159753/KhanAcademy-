@@ -26,3 +26,20 @@ img{
     width: 519px;
     height: 567px;
 }
+
+.text{
+    height: 366px;
+    width: 532px;
+}
+
+span{
+    font-size: 40px;
+}
+#content1::after{
+    content: "\a";
+    white-space: pre;
+}
+#content2::after{
+    content: "\a";
+    white-space: pre;
+}
