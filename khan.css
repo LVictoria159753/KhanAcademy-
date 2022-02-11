@@ -111,5 +111,14 @@ p>span{
 
 #buttons{
     border: solid 1px black;
+    margin:0px;
+    margin-left: 20%;
+}
 
+button{
+    background-color:rgb(125, 141, 230);
+    padding:0 16px;
+    border-radius: 4px;
+    width: 94px;
+    height: 40px;
 }
